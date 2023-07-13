@@ -1,0 +1,4 @@
+#!/bin/bash
+
+vendor/bin/sail down -v
+rm -rf vendor node_modules public/build .env
